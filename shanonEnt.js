@@ -32,6 +32,6 @@ function calculateShannonEntropy(numberMap) {
   
 let word = "abrakadabra";
 
-console.log(getActualFrqSums(word)); //считаем таблицу частот букв строки
+//console.log(getActualFrqSums(word)); //считаем таблицу частот букв строки
 
 console.log(calculateShannonEntropy(getActualFrqSums(word))); //считаем энтропию для строки
