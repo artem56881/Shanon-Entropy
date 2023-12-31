@@ -30,7 +30,7 @@ function calculateShannonEntropy(numberMap) {
   }
 
   
-let word = "abrakadabra";
+const word = "abrakadabra";
 
 const frequenses = getActualFrqSums(word); //считаем таблицу частот букв строки
 
